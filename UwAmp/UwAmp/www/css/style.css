@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	font-family: 'Abel', sans-serif;
+	max-height: 100vh;
+	overflow: hidden; 
+}
+h1{
+	text-align: center; 
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px; 
+	color: #009999;
+
+}
+#main-info{
+	background-color: #009999;
+}
+
+#button{
+	text-align: center;
+	margin: 0; 
+	border: 4px solid #FFF;
+	color: #009999;
+	margin: auto; 
+    width: 100%;
+    padding: 10px; 
+	font-size: 30px; 
+	font-family: 'Abel', sans-serif;
+	
+}
+#button:hover{
+	background-color: #000; 
+}
+#button2{
+	border: 4px solid #FFF;
+	color: #009999;
+	margin: auto;  
+    width: 100%; 
+    padding: 10px; 
+	font-size: 30px; 
+	font-family: 'Abel', sans-serif;
+}
+#button3{
+	border: 4px solid #FFF;
+	color: #009999;
+    width:100%;
+    padding: 10px; 
+	font-size: 30px; 
+	font-family: 'Abel', sans-serif;
+}
+
+
+figure {
+	width: 70%;
+	float: left;
+}
+
+figure img {
+	width: 85%;
+}
+
+figcaption {
+	text-align: right;
+}
+.grid-parent{ 
+	display: grid; 
+	grid-template-columns: repeat(5, 400px);
+	grid-gap: 5px; 
+}
+.food__main{
+	grid-column: 2;
+}
+
+.food__veggies{
+	grid-column: 3;
+}
+
+.food__surprise{
+	grid-column: 4;
+}
+
+
+
