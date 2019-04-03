@@ -4686,3 +4686,55 @@
 [Tue Apr 02 03:16:55.457989 2019] [ssl:warn] [pid 9952:tid 680] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Apr 02 03:16:55.489243 2019] [mpm_winnt:notice] [pid 9952:tid 680] AH00354: Child: Starting 64 worker threads.
 [Tue Apr 02 07:37:58.907537 2019] [mpm_winnt:crit] [pid 9952:tid 680] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Apr 02 18:07:34.603799 2019] [ssl:warn] [pid 12440:tid 672] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 18:07:34.605804 2019] [ssl:warn] [pid 12440:tid 672] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 18:07:34.654935 2019] [core:warn] [pid 12440:tid 672] AH00098: pid file D:/Assign3/A3/UwAmp/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 02 18:07:34.751191 2019] [ssl:warn] [pid 12440:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 02 18:07:34.751191 2019] [ssl:warn] [pid 12440:tid 672] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 18:07:34.751191 2019] [ssl:warn] [pid 12440:tid 672] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 18:07:35.212420 2019] [mpm_winnt:notice] [pid 12440:tid 672] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Tue Apr 02 18:07:35.212420 2019] [mpm_winnt:notice] [pid 12440:tid 672] AH00456: Server built: Jan 28 2016 09:58:25
+[Tue Apr 02 18:07:35.212420 2019] [core:notice] [pid 12440:tid 672] AH00094: Command line: 'D:\\Assign3\\A3\\UwAmp\\UwAmp\\bin\\apache\\bin\\httpd.exe -d D:/Assign3/A3/UwAmp/UwAmp/bin/apache -f D:\\Assign3\\A3\\UwAmp\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Tue Apr 02 18:07:35.214426 2019] [mpm_winnt:notice] [pid 12440:tid 672] AH00418: Parent: Created child process 3304
+[Tue Apr 02 18:07:35.737819 2019] [ssl:warn] [pid 3304:tid 712] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 18:07:35.737819 2019] [ssl:warn] [pid 3304:tid 712] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 18:07:35.846108 2019] [ssl:warn] [pid 3304:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 02 18:07:35.846108 2019] [ssl:warn] [pid 3304:tid 712] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 18:07:35.846108 2019] [ssl:warn] [pid 3304:tid 712] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 18:07:35.867165 2019] [mpm_winnt:notice] [pid 3304:tid 712] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 02 19:27:59.078730 2019] [core:error] [pid 3304:tid 1312] (20024)The given path is misformatted or contained invalid characters: [client ::1:57643] AH00127: Cannot map GET /%3Ch1%3E%20get_tweets.php?q=%20%3C/h1%3Echicken HTTP/1.1 to file, referer: http://localhost/
+[Tue Apr 02 20:11:47.501923 2019] [mpm_winnt:crit] [pid 3304:tid 712] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Apr 02 20:16:42.454572 2019] [ssl:warn] [pid 11920:tid 692] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 20:16:42.455575 2019] [ssl:warn] [pid 11920:tid 692] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 20:16:42.494494 2019] [core:warn] [pid 11920:tid 692] AH00098: pid file D:/Assign3/A3/UwAmp/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 02 20:16:42.604789 2019] [ssl:warn] [pid 11920:tid 692] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 02 20:16:42.605291 2019] [ssl:warn] [pid 11920:tid 692] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 20:16:42.605291 2019] [ssl:warn] [pid 11920:tid 692] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 20:16:42.624342 2019] [mpm_winnt:notice] [pid 11920:tid 692] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Tue Apr 02 20:16:42.624342 2019] [mpm_winnt:notice] [pid 11920:tid 692] AH00456: Server built: Jan 28 2016 09:58:25
+[Tue Apr 02 20:16:42.624342 2019] [core:notice] [pid 11920:tid 692] AH00094: Command line: 'D:\\Assign3\\A3\\UwAmp\\UwAmp\\bin\\apache\\bin\\httpd.exe -d D:/Assign3/A3/UwAmp/UwAmp/bin/apache -f D:\\Assign3\\A3\\UwAmp\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Tue Apr 02 20:16:42.626349 2019] [mpm_winnt:notice] [pid 11920:tid 692] AH00418: Parent: Created child process 7520
+[Tue Apr 02 20:16:43.176314 2019] [ssl:warn] [pid 7520:tid 664] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 20:16:43.176815 2019] [ssl:warn] [pid 7520:tid 664] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 20:16:43.292123 2019] [ssl:warn] [pid 7520:tid 664] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 02 20:16:43.292625 2019] [ssl:warn] [pid 7520:tid 664] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 20:16:43.292625 2019] [ssl:warn] [pid 7520:tid 664] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 20:16:43.315686 2019] [mpm_winnt:notice] [pid 7520:tid 664] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 02 21:35:24.207391 2019] [ssl:warn] [pid 5104:tid 708] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 21:35:24.208395 2019] [ssl:warn] [pid 5104:tid 708] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 21:35:24.300655 2019] [core:warn] [pid 5104:tid 708] AH00098: pid file D:/Assign3/A3/UwAmp/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 02 21:35:24.393905 2019] [ssl:warn] [pid 5104:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 02 21:35:24.394908 2019] [ssl:warn] [pid 5104:tid 708] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 21:35:24.394908 2019] [ssl:warn] [pid 5104:tid 708] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 21:35:24.422982 2019] [mpm_winnt:notice] [pid 5104:tid 708] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Tue Apr 02 21:35:24.422982 2019] [mpm_winnt:notice] [pid 5104:tid 708] AH00456: Server built: Jan 28 2016 09:58:25
+[Tue Apr 02 21:35:24.422982 2019] [core:notice] [pid 5104:tid 708] AH00094: Command line: 'D:\\Assign3\\A3\\UwAmp\\UwAmp\\bin\\apache\\bin\\httpd.exe -d D:/Assign3/A3/UwAmp/UwAmp/bin/apache -f D:\\Assign3\\A3\\UwAmp\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Tue Apr 02 21:35:24.424988 2019] [mpm_winnt:notice] [pid 5104:tid 708] AH00418: Parent: Created child process 13500
+[Tue Apr 02 21:35:25.052665 2019] [ssl:warn] [pid 13500:tid 644] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 21:35:25.053669 2019] [ssl:warn] [pid 13500:tid 644] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 21:35:25.180332 2019] [ssl:warn] [pid 13500:tid 644] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 02 21:35:25.180332 2019] [ssl:warn] [pid 13500:tid 644] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Apr 02 21:35:25.180332 2019] [ssl:warn] [pid 13500:tid 644] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 02 21:35:25.201387 2019] [mpm_winnt:notice] [pid 13500:tid 644] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 02 23:04:56.812175 2019] [core:error] [pid 13500:tid 1372] (20024)The given path is misformatted or contained invalid characters: [client ::1:61586] AH00127: Cannot map GET /imgs/chef.png%22/ HTTP/1.1 to file, referer: http://localhost/
+[Tue Apr 02 23:05:42.236457 2019] [core:error] [pid 13500:tid 1368] (20024)The given path is misformatted or contained invalid characters: [client ::1:61637] AH00127: Cannot map GET /imgs/chef.png%22/img HTTP/1.1 to file, referer: http://localhost/

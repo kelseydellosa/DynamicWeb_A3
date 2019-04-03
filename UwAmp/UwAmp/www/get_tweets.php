@@ -13,7 +13,7 @@
 	$q = $_REQUEST["q"]; 
 	// Choose URL and Request Method
 	$url = "https://api.twitter.com/1.1/search/tweets.json";
-	$getfield = '?q=#'. $q .'&lang=en&count=1'; // queries start with ? and are strung together with &
+	$getfield = '?q=#'. $q .'&lang=en&count=1&tweet_mode=extended'; // queries start with ? and are strung together with &
 	$requestMethod = "GET";
 	
 	//Perform the request!

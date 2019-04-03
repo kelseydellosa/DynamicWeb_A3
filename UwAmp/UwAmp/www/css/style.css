@@ -6,49 +6,75 @@ html, body {
 	font-family: 'Abel', sans-serif;
 	max-height: 100vh;
 	overflow: hidden; 
+	background-color: #f4fdff; 
 }
 h1{
+	margin-top: -80px; 
 	text-align: center; 
 	font-family: 'Amatic SC', cursive;
-	font-size: 70px; 
-	color: #009999;
+	font-size: 60px; 
+	color: #2cc8fc; 
+	letter-spacing: 1px; 
 
 }
-#main-info{
-	background-color: #009999;
+header{
+	height: 216px; 
+}
+.logo{
+	width: 10%; 
+    position: relative;
+    left: 46%;
+  	margin-left: 100px  Half the width of your image. IE6 will double this measure because it is floated. 
+    margin-top: -55px  Half the height of your image. IE6 will double this measure because it is floated. 	*/
 }
 
-#button{
+#main-info, #veg-info, #des-info{
+	padding-top: 20px; 
+	font-size: 22px; 
+	margin-left: 10px;  
+}
+
+#img{
+	width: 30%; 
+}
+
+
+#mainHash, #vegHash, #desHash,p{
+	padding: none; 
+	text-transform: uppercase; 
 	text-align: center;
-	margin: 0; 
-	border: 4px solid #FFF;
-	color: #009999;
-	margin: auto; 
+	font-weight: bold; 
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px; 
+}
+
+#button, #button2, #button3{
+	margin: 0 auto; 
+	border: 4px solid #000;  
+	color: #2cc8fc; 
+	background-color: #000;  
+	margin-top: -15px; 
     width: 100%;
-    padding: 10px; 
-	font-size: 30px; 
+    padding: 12px; 
+	font-size: 25px; 
 	font-family: 'Abel', sans-serif;
 	
 }
-#button:hover{
-	background-color: #000; 
+
+#button:hover, #button2:hover, #button3:hover{
+	background-color: #00b4f1; 
+	border-color: #000; 
+	color: #000; 
 }
-#button2{
-	border: 4px solid #FFF;
-	color: #009999;
-	margin: auto;  
-    width: 100%; 
-    padding: 10px; 
-	font-size: 30px; 
-	font-family: 'Abel', sans-serif;
-}
-#button3{
-	border: 4px solid #FFF;
-	color: #009999;
-    width:100%;
-    padding: 10px; 
-	font-size: 30px; 
-	font-family: 'Abel', sans-serif;
+
+q {
+	position: relative;
+	text-align: center; 
+	float: left; 
+	margin-left: 240px;
+	margin-top: 630px; 
+	font-size: 13px; 
+	color: #777777; 
 }
 
 
@@ -57,8 +83,8 @@ figure {
 	float: left;
 }
 
-figure img {
-	width: 85%;
+img {
+	width: 90%;
 }
 
 figcaption {
@@ -66,20 +92,23 @@ figcaption {
 }
 .grid-parent{ 
 	display: grid; 
-	grid-template-columns: repeat(5, 400px);
-	grid-gap: 5px; 
+	margin: auto; 
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 7px; 
 }
 .food__main{
-	grid-column: 2;
+	grid-column: 1;
+	border-color: #000; 
 }
 
 .food__veggies{
+	grid-column: 2;
+}
+
+.food__dessert{
 	grid-column: 3;
 }
 
-.food__surprise{
-	grid-column: 4;
-}
 
 
 

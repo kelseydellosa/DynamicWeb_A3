@@ -6,10 +6,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<link rel="icon" type="image/png" href="imgs/favicon.png"/>
 
 </head>
 <body>
-	<h1>What's for Dinner?</h1>
+	<header>
+		<img class="logo"src="imgs/chef.png"/>
+
+</header>
+		<h1>What's for Dinner, Chef Twitter?</h1>
 
 <!-- 	<input type="text" id="query">
 	<div id="results">
@@ -17,26 +22,35 @@
 <section class ="grid-parent"> 
 	<div class="food food__main">
 	<input type="button" value="main" id="button">
-		<div id="main-info">
-	</div> 
+	<audio id="audio" src="audio/ding.wav"></audio>
+	<div id="main-info"></div> 
+	<div id="mainHash"><span></span>
 	</div>
+</div>
 
 	<div class="food food_veggies">
 	<input type="button" value="veggies" id="button2">
-		<div id="veg-info"></div> 
+		<div id="veg-info">
+		</div> 
+		<div id="vegHash"><span></span>
+		</div>
 	</div>
 	
-
-
-	<div class="food food_surprise">
-	<input type="button" value="surprise" id="button3">
-
-	<div id="sup-info"></div> 
+	<div class="food food_dessert">
+	<input type="button" value="dessert" id="button3">
+	<div id="des-info"></div> 
 	</div>
-	
-
+	<div id="desHash"></div> 
+	</div>
+	<div class="credits">
+		<q>chef hat image credit: stickpng<br>
+		illustration image credit: freeiconspng<br>
+		twitter icon image credit: adobe stock</q>
+	</div>
 
 </section>
+	
+
 	<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 
