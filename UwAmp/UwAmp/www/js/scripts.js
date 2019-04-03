@@ -9,7 +9,7 @@ function init() {
         var main_array= ["sandwich","burger", "pizza", "steak", "chicken", "hotdog"]
         var rand = Math.floor(Math.random() * 5);
         console.log(main_array[rand]); 
-        callAjax(main_array[rand], "main-info", "mainHash"); 
+        callAjax(main_array[rand], "main-info", "mainHash", "imagebox"); 
         audio.play(); 
 
     }); 
@@ -20,7 +20,7 @@ function init() {
         var veg_array= ["avocado", "corn", "tomato", "carrots", "brusselsprouts"]
         var rand = Math.floor(Math.random() * 5);
         console.log(veg_array[rand]); 
-        callAjax(veg_array[rand], "veg-info", "vegHash"); 
+        callAjax(veg_array[rand], "veg-info", "vegHash", "imagebox"); 
         audio.play(); 
     }); 
 
@@ -30,7 +30,7 @@ function init() {
         var des_array= ["cake", "icecream", "macaroon", "cupcake", "doughnut", "s'mores"]
         var rand = Math.floor(Math.random() * 6);
         console.log(des_array[rand]); 
-        callAjax(des_array[rand], "des-info", "desHash"); 
+        callAjax(des_array[rand], "des-info", "desHash", "imagebox"); 
         audio.play(); 
     }); 
 
@@ -105,39 +105,6 @@ function init() {
     // newCap.appendChild(newCapText);  
 
 
-    // newFig.appendChild(newImage)
-    // newFig.appendChild(newCap)
-    // document.getElementById("main-info").appendChild(newFig); 
-
-//     function getTweets(){
-//     var xhr = new XMLHttpRequest();
-//     // xhr.open('GET', 'get_tweets.php?q=taco'+ main, true);
-//     xhr.open('GET', 'get_tweets.php?q='+query, true); //this changes the state of xmlhttp
-//     xhr.send(null);
-//     xhr.onload = function() {
-        
-//         if(xhr.status == 200){
-//             var tweets = JSON.parse(xhr.responseText);
-//             tweets = tweets.statuses; 
-//             console.log(tweets)
-            
-//             //  EXAMPLE OUTPUT TO A LIST
-//             var tweetList = "<ul>";
-//             tweets.forEach(function(tweet) {
-//                 tweetList += "<li>" + tweet.text + "</li>";
-//             });
-//             tweetList += "</ul>"
-
-//             document.getElementById("results").innerHTML = tweetList;
-
-            
-//         } else {
-//             console.log(xhr);
-//             document.getElementById("results").innerHTML = xhr.responseText;
-//         }
-
-//     }
-// }
 
 
 
