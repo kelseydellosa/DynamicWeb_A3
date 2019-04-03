@@ -77,6 +77,17 @@ q {
 	color: #777777; 
 }
 
+/*.credits{
+	text-align: center; 
+	float: left; 
+    position: relative;
+    left: 35%;
+  	margin-left: 100px  
+	margin-top: 830px; 
+    font-size: 13px; 
+	color: #777777; 
+}
+*/
 
 figure {
 	width: 70%;
